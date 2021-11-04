@@ -92,6 +92,7 @@ start and select buttons. */
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
     background: url(https://imgur.com/sPt8bDo.png);
+	background-position: 0 0;
     width: 86px;
     height: 40px;
     opacity: 0;
@@ -104,7 +105,7 @@ start and select buttons. */
 }
 .custom .start{
     float: right;
-    background-position: 86px 0;
+    background-position: 104px 0;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
@@ -130,17 +131,17 @@ start and select buttons. */
     left: 123px;
 }
 .custom .b{
-	background-position: 198px top 0;
+	background-position: 132px 0;
     top: 123px;
     left: 63px;
 }
 .custom .x{
-	background-position: 66px top 0;
+	background-position: 198px 0;
     top: 2px;
     left: 63px;
 }
 .custom .y{
-	background-position: 132px top 0;
+	background-position: 66px 0;
     top: 63px;
     left: 2px;
 }
@@ -165,12 +166,12 @@ the CSS inline. */
     background-position: 72px 0;
 }
 .custom .stick.left{
-    top: 17px;
-    left: 17px;
+    top: 34px;
+    left: 34px;
 }
 .custom .stick.right{
-    top: 17px;
-    right: 17px;
+    top: 34px;
+    left: 268px;
 }
 /* Dpad possitioning and sizing */
 .custom .dpad{
