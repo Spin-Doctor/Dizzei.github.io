@@ -55,7 +55,7 @@ placement */
     position: absolute;
     width: 561px;
     height: 28px;
-    left: 28x;
+    left: 28px;
     top: 82px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
@@ -105,7 +105,7 @@ start and select buttons. */
 }
 .custom .start{
     float: right;
-    background-position: 104px 0;
+    background-position: 86px 0;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
@@ -182,27 +182,36 @@ the CSS inline. */
     left: 0;
 }
 .custom .face{
-	width: 62;
-	height: 62;
-    background: url(https://i.imgur.com/0aBvwUv.png);
     position: absolute;
     opacity: 0;
 }
 .custom .face.up{
+	background: url(https://i.imgur.com/0aBvwUv.png);
     left: 65px;
     top: 5px;
+	width: 62px;
+	height: 62px;
 }
 .custom .face.down{
-    top: 125px;
+	background: url(https://i.imgur.com/0aBvwUv.png);
     left: 65px;
+    top: 125px;
+	width: 62px;
+	height: 62px;
 }
 .custom .face.left{
+    background: url(https://i.imgur.com/0aBvwUv.png);
 	top: 65px;
     left: 5px;
+	width: 62px;
+	height: 62px;
 }
 .custom .face.right{
+    background: url(https://i.imgur.com/0aBvwUv.png);
 	top: 65px;
     left: 125px;
+	width: 62px;
+	height: 62px;
 }
 .custom .face.pressed{
     opacity: 1;
