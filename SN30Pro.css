@@ -158,15 +158,7 @@ the CSS inline. */
 .custom .stick{
     position: absolute;
     background: url(https://i.imgur.com/QQCd1jb.png);
-	-webkit-mask-image:
-		-webkit-linear-gradient(black, black),
-		url(https://imgur.com/zHoAubW);
-	-webkit-mask-composite: exclude;
-	-webkit-mask-composite: xor;
-	-webkit-mask-size:
-		100% 100%;
-	-webkit-mask-repeat: no-repeat;
-	-webkit-mask-position: top left;
+	clip-path: circle(83.33%);
     background-position: 0 0;
     height:72px;
     width: 72px;
