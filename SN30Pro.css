@@ -62,16 +62,10 @@ placement */
     opacity: 1;
 }
 .custom .bumper.left{
-  /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
-  and I can just rotate them in the browser? Also, note that you most likely won't need
-  to use a browser speficic prefix unless it's something that is indeed browser specific.
-  NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
-    float: left;
+	left: 0;
 }
 .custom .bumper.right{
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    float: right;
+	right: 0;
 }
 
 .custom .quadrant{
@@ -92,8 +86,8 @@ start and select buttons. */
     position: absolute;
     width: 190px;
     height: 40px;
-    top: 213px;
-    left: 198px;
+    top: 198px;
+    left: 213px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
@@ -136,17 +130,17 @@ start and select buttons. */
     left: 123px;
 }
 .custom .b{
-	background-position: left 66px top 0;
+	background-position: 198px top 0;
     top: 123px;
     left: 63px;
 }
 .custom .x{
-	background-position: left 132px top 0;
+	background-position: 66px top 0;
     top: 2px;
     left: 63px;
 }
 .custom .y{
-	background-position: left 198px top 0;
+	background-position: 132px top 0;
     top: 63px;
     left: 2px;
 }
@@ -168,14 +162,14 @@ the CSS inline. */
     width: 72px;
 }
 .custom .stick.pressed{
-    background-position: left 72px 0;
+    background-position: 72px 0;
 }
 .custom .stick.left{
-    top: 17;
-    left: 17;
+    top: 17px;
+    left: 17px;
 }
 .custom .stick.right{
-    top: 17;
+    top: 17px;
     right: 17px;
 }
 /* Dpad possitioning and sizing */
